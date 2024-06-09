@@ -11,7 +11,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
       <div class="container">
         <img src="images/logo.png" alt="Bootstrap">
 
@@ -25,13 +25,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shoes</a>
+              <a class="nav-link" href="#Shoes">Shoes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Backpack</a>
+              <a class="nav-link" href="#Bags">Backpack</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Subscribe</a>
+              <a class="nav-link" href="#Subs">Subscribe</a>
             </li>
           </ul>
         </div>
@@ -126,7 +126,7 @@
   </div>
 </section>
 
-<section class="Shoes my-5">
+<section class="Shoes my-5" id="Shoes">
 <div class="container">
   <h1 class="Sho">Shoes</h1>
   <div class="row g-5">
@@ -181,7 +181,7 @@
 
 </section>
 
-<section class="Bagpack my-5">
+<section class="Bagpack my-5" id="Bags">
   <div class="container">
     <h1 class="Sho">Bagpack</h1>
     <div class="row g-5">
@@ -237,14 +237,26 @@
   </section>
   
 
+  <section>
+    <div id="Subs" class="subscribe d-flex pt-5 flex-column border rounded  bg-danger-subtle align-items-center mx-5" style="height:280px;">
+      <h2>LET'S STAY IN TOUCH</h2>
+      <p>Get updates on sales, specials and more</p>
+      <form>
+        <div class="mb-1">
+          <input type="email" class="form-control" style="width:300px;" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </form>
+
+    </div>
+  </section>
+
 </main>
 
 <footer>
-  <div class="last">
-
-
-  </div>
+  <p class="text-center pt-5">©2024. TUR Commerce. All rights reserved. Toufike, Bogura,BD.</p>
 </footer>
+
 
 
 </section>
